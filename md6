@@ -1,0 +1,40 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+Install the latest PowerShell for new features and improvements!
+https://aka.ms/PSWindows
+PS C:\Users\ASUS> python
+Python 3.13.7 (tags/v3.13.7:bceelc3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)] on win32 Type "help", "copyright", "credits" or "license" for more information.
+>>> def fpb(a, b):
+while b! 0:
+a, bb, a % b
+return a
+def kpk(a, b):
+return abs(ab) // fpb(a, b)
+>> x = int(input("Masukkan bilangan pertama: "))
+Masukkan bilangan pertama: 56
+>>>> y = int(input("Masukkan bilangan kedua: "))
+Masukkan bilangan kedua: 55
+>>>
+>>> print(f"FPB dari {x} dan {y} adalah {fpb(x, y)}")
+FPB dari 56 dan 55 adalah 1
+>>> print(f"KPK dari {x} dan {y} adalah {kpk(x, y)}")
+KPK dari 56 dan 55 adalah 3080
+>>>
+>>> Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+PS C:\Users\ASUS> python
+Python 3.13.7 (tags/v3.13.7:bceelc3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> # Rumus faktorial:
+>>>#n!= n x (n-1)!
+>>>
+>>> def faktorial(n):
+if n = 0 or n == 1:
+return 1
+else:
+return n faktorial (n 1)
+>>> angka = int(input("Masukkan bilangan: "))
+Masukkan bilangan: 8
+>>> print(f"Faktorial dari {angka} adalah {faktorial(angka)}")
+Faktorial dari 8 adalah 40320
