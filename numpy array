@@ -1,0 +1,29 @@
+Python 3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)] on win32 Type "help", "copyright", "credits" or "license" for more information.
+>>> import numpy as np
+>>> x = np.array([1,2,3,4,5])
+>>> print(x)
+[1 2 3 4 5]
+>>> m = np.array([[1,2], [3,4]])
+>>> print(m)
+[[12]
+[34]]
+>>> x=np.array([0,1,2,3,4])
+>>> print(x)
+[01234]
+>>> y=2*X+3
+Traceback (most recent call last):
+File "<python-input-7>", line 1, in <module>
+y=2*X+3
+NameError: name 'X' is not defined. Did you mean: ''?
+>>> y=2*x+3
+>>> print(y)#[3 5 7 9 11]
+[3 5 7 9 11]
+>>> print(x**2)#kuadrat tiap elemen
+[0 1 4 9 16]
+>>> print(x%2) #modul tiap elemen
+[01010]
+>>>> import numpy as np
+>>> x_array = np.array([0,1,2,3,4])
+>>> print(2*x_array+3)
+[3 5 7 9 11]
+>>>
