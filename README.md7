@@ -1,0 +1,38 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+PS C:\Users\ASUS> python
+Python 3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> def fibonacci(n):
+if n <= 1:
+return n
+else:
+return fibonacci(n-1) + fibonacci(n-2)
+>>> n = int(input("Masukkan jumlah suku: "))
+Masukkan jumlah suku: 6
+>>>> print("Deret Fibonacci:")
+Deret Fibonacci:
+>> for i in range(n):
+print(fibonacci(i), end="")
+>>>>> 1235
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+PS C:\Users\ASUS> python
+Python 3.13.7 (tags/v3.13.7:bceelc3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)] on win32 Type "help", "copyright", "credits" or "license" for more information.
+>>> def is_prima(n):
+if n <= 1:
+return False
+for i in range(2, int(n**0.5) + 1):
+if n%i==0:
+return False
+return True
+angka int(input("Masukkan bilangan: "))
+if is_prima(angka):
+print(angka, "adalah bilangan prima")
+else:
+print(angka, "bukan bilangan prima")
+Masukkan bilangan: 2
+2 adalah bilangan prima
